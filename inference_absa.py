@@ -3,7 +3,7 @@ import re
 import spacy
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-MODEL_PATH = "xlmr_absa_hinglish"
+MODEL_PATH = "divya07garg01/xlmr-absa-hinglish"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
